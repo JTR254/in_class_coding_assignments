@@ -6,7 +6,7 @@ if (x >  5) {
 };
 
 let expenses = 10000;
-if (x > 7000) {
+if (expenses > 7000) {
     console.log("High Expenses")
 } else {
     console.log("Manageable Expenses")
@@ -27,3 +27,11 @@ for (let i = 10; i >= 1; i--) {
     console.log("Iteration: ", i);
 }
 
+// Task 4
+
+let num = 2;
+
+while (num <= 10) {
+    console.log("Count is:", num);
+    num += 2
+}
