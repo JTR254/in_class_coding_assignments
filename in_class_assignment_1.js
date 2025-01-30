@@ -15,8 +15,15 @@ if (x > 7000) {
 //Task 2
 
 let score = 60
-if (x >= 60) {
+if (score >= 60) {
     console.log("Passed")
 } else {
     console.log("Failed")
 }
+
+// Task 3
+
+for (let i = 10; i >= 1; i--) {
+    console.log("Iteration: ", i);
+}
+
